@@ -1,0 +1,265 @@
+.coverflow__container__1P-xE {
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  height: 100vh !important;
+  background: none !important;
+}
+
+.coverflow__coverflow__53z9A {
+  position: relative;
+  width: 100%;
+  height: 40%;
+  margin: 0;
+  margin-top: 10%;
+  z-index: 3;
+ }
+
+.coverflow__stage__14oqC {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  transform-style: preserve-3d;
+  perspective: 500px;
+}
+
+.coverflow__figure__3bk_C {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  flex: 0 0 auto;
+  cursor: pointer;
+  transition: transform 600ms ease;
+  backface-visibility: hidden;
+  z-index: 9;
+  align-self: center;
+  box-shadow: 0 50px 70px rgba(0, 0, 0, 0.5);
+  background-color: red;
+}
+
+.coverflow__cover__25-7e {
+  display: block;
+  width: 100%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); }
+
+.coverflow__preloader__28hWj {
+  display: hidden; }
+
+.coverflow__text__39hqd {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: .9em;
+  color: white;
+  padding: 5px;
+  overflow: hidden;
+  background: none !important; }
+
+.coverflow__actions__1D5QO {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center; }
+
+.coverflow__actions__1D5QO .coverflow__button__25AqX {
+    border: 1px solid #616161;
+    border-radius: 2px;
+    min-width: 120px;
+    padding: 5px;
+    margin: 2px;
+    background: #616161;
+    color: rgba(255, 255, 255, 0.9); }
+    .coverflow__actions__1D5QO .coverflow__button__25AqX:hover {
+      background: black;
+      color: white; }
+    .coverflow__actions__1D5QO .coverflow__button__25AqX:focus {
+      outline: none; }
+
+@keyframes coverflow__prevent__1YT_1 {
+  0% {
+    pointer-events: none; }
+  100% {
+    pointer-events: auto; } }
+
+.showed {
+  margin-left: 60% !important;
+}
+
+.center2 {
+  display: none;
+}
+
+.centerBackgorund {
+  display: inline-block;
+  z-index: 9;
+}
+
+.center {
+  display: inline-block;
+}
+
+.greyBackground {
+  position: absolute;
+  width: 100%;
+  height: 143.9%;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: auto;
+  z-index: 8;
+  top: 0;
+}
+
+.detail {
+  position: absolute;
+  top: 1%;
+  right: 25vw;
+  width: 45vw;
+  height: 122vh;
+  background-color: #E7F7FF;
+  border: 8px;
+  border-color: #74B4E8;
+  border-radius: 15px;
+  border-style: outset;
+  margin: auto;
+  z-index: 9;
+}
+
+.infos {
+  font-family: Georgia, serif;
+  font-size: 19px;
+  letter-spacing: -0.4px;
+  word-spacing: -2px;
+  color: #000000;
+  font-weight: 400;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: capitalize;
+  font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+}
+
+.middle {
+  font-size: 23px;
+  font-weight: bold;
+  position: absolute;
+  top: 15%;
+  left: 20%;
+}
+
+p {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 40%;
+  height: 30%;
+  margin: 1%;
+  font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+}
+
+.showInvest {
+  margin: 1%;
+  background-color: #D8D90B;
+  font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+}
+
+.apartments {
+  position: absolute;
+  top: 10%;
+  left: 4.5%;
+  bottom: 0%;
+}
+
+h3 {
+  position: absolute;
+  top: 20%;
+  width: 15%;
+  height: 10%;
+  text-align: center;
+  background-color: white;
+  left: 43vw;
+  margin-right: -50vw;
+  box-shadow: -2px -2px 2px 3px #888888;
+}
+
+.header_text {
+  margin: 0;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+#par1 {
+  position: absolute;
+  top: 50%;
+  width: 50%;
+  height: 20%;
+  background-color: white;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  box-shadow: -2px -2px 2px 3px #888888;
+}
+
+#par2 {
+  position: absolute;
+  top: 75%;
+  width: 55%;
+  height: 23%;
+  background-color: white;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  box-shadow: -2px -2px 2px 3px #888888;
+}
+
+#par3 {
+  position: absolute;
+  top: 100%;
+  width: 55%;
+  height: 15%;
+  background-color: white;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  box-shadow: -2px -2px 2px 3px #888888;
+}
+
+.par {
+  display: block;
+  margin: auto;
+  margin-top: 2%;
+  width: 70%;
+}
+
+.apartmentsMain {
+  position: absolute;
+  top: 5%;
+  left: 24.5vw;
+  width: 45vw;
+  height: 90vh;
+  background-color: #E7F7FF;
+  border: 8px;
+  border-color: #74B4E8;
+  border-radius: 15px;
+  border-style: outset;
+  margin: auto;
+  z-index: 9;
+}
+
+#root{
+  margin-top: -1%;
+  margin-left: -1%;
+  width: 100vw;
+  height: 100vh;
+}
