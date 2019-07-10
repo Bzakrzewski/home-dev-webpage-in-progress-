@@ -262,7 +262,7 @@ componentDidMount = () => {
                   <button className="showInvest"> Show investment </button>
                   <div style={{ height: '407.5px', width: '100%' }}>
                     <GoogleMapReact
-                      bootstrapURLKeys={{ key: 'AIzaSyCHbjs-2bDn06o_-VNoJq4V0ub3JTehNU8' }}
+                      bootstrapURLKeys={{ key: /*here is my api key*/ }}
                       defaultCenter={this.props.center}
                       defaultZoom={this.props.zoom} >
                       <AnyReactComponent
