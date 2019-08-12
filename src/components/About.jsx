@@ -1,46 +1,6 @@
 import React, {Component} from 'react';
 import {browserHistory} from 'react-router';
-import styled from 'styled-components'
 import '../style.css';
-
-const Header = styled.div`
-  position: fixed;
-  display: inline-block;
-  z-index: 2;
-`
-const Header_backgorund = styled.div`
-  width: 98.3vw;
-  height: 15vh;
-  position: absolute;
-  z-index: 2;
-`
-const Icon = styled.img`
-  height: 20vh;
-  weight: 10vw;
-  float: left;
-  margin-top: -2%;
-`
-const Button = styled.button`
-  float: left;
-  width: 5%;
-  height: 25%;
-  font-size: 13px;
-  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
-  font-weight: 700;
-  margin: 1%;
-  margin-top: 2%;
-  background-color: Transparent;
-  background-repeat:no-repeat;
-  border: none;
-  cursor:pointer;
-  overflow: hidden;
-  outline:none;
-`
-const Background_photo = styled.img`
-  width: 98.3vw;
-  height: 150%;
-  position: relative;
-`
 
 class About extends Component {
   main() { browserHistory.replace('/Main');  }
@@ -52,26 +12,26 @@ class About extends Component {
   render() {
     return(
       <div>
-        <Header>
-          <Header_backgorund>
-            <Icon src={require('../images/my_logo.png')} alt='' />
-            <Button
+        <div className="header">
+          <div className="header_backgorund">
+            <img className="icon" src={require('../images/my_logo.png')} alt='' />
+            <button className="menu_btn"
               onClick={() => this.main()}
               onMouseEnter={(event) => this.mouseEnter(event)} onMouseLeave={(event) => this.mouseLeave(event)}
-            > Main </Button>
-            <Button
+            > Main </button>
+            <button className="menu_btn"
               onClick={() => this.offer()}
               onMouseEnter={(event) => this.mouseEnter(event)} onMouseLeave={(event) => this.mouseLeave(event)}
-            > Offer </Button>
-            <Button
+            > Offer </button>
+            <button className="menu_btn"
               onClick={() => this.contact()}
               onMouseEnter={(event) => this.mouseEnter(event)} onMouseLeave={(event) => this.mouseLeave(event)}
-            > Contact </Button>
-          </Header_backgorund>
-        </Header>
+            > Contact </button>
+          </div>
+        </div>
 
           <div>
-              <Background_photo src={require('../images/backgorund_photo.jpg')}
+              <img className="background_photo" src={require('../images/backgorund_photo.jpg')}
                      alt='' />
               <h3>
                 <p className="header_text">About company</p>
